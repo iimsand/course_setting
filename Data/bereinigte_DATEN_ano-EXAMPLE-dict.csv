@@ -1,0 +1,51 @@
+Tabellenname,Beschreibung
+V1,row key
+athlete,key for athlete
+gender,1 = male / 2 = female
+run,Number of run per athlete
+location,Location of run
+date,Date of run
+TurnNr,Turn number of run and location
+MinimalRadius,"The minimal radius of an athlete during a turn, likely closest to the gate, is reached at the end of the initiation phase and the beginning of the completion phase"
+VelocityAtMinRadius,Velocity at the minimum radius
+VelocityAtTurnEntry,"Velocity at the beginning of the turn, start of initiation phase"
+VelocityAtTurnExit,"Velocity at the end of the turn, end of completion phase"
+TimeStarttoEnd,Time used for initiation and completion phase
+TimeStartToMinRad,Time used in the initiation phase
+TimeMinRadToEnd,Time used in the completion phase
+GlideTime_endtostart,Time of glidephase (end of completion phase until start of next turn inititation phase)
+TimeStarttoEnd_2,"Time used for initiation, completion and gliding phase"
+Initiation,Proportion of total turn time spent in the initiation phase
+Completion,Proportion of total turn time spent in the completion  phase
+Gliding,Proportion of total turn time spent in the gliding phase
+Unnamed0,"x,y,z coordinates"
+vectortonext,"3D vector to next point (x,y,z)"
+vector2Dtonext,2D vector to next point (without z)
+GATEDISTANCE,Direct gate distance
+dist2Dtonext,2D distance to next gate
+vectortonextnorm,Normalized vector to next gate
+vector2Dtonextnorm,Normalized 2D vector to next gate (without z)
+STEEPNESS,Inclination of the slope at the gate
+azitonext,Azimut to next gate
+slopechangetonext,Change of slope inclination to next gate
+angletonext,Angle from gate to next
+projtonext,Projected angle to next gate
+projpttonext,Coordinates for next gate
+offsettonext,Horizontal distance to next gate
+vectortonextnext,same as before but for second next gate
+vector2Dtonextnext,same as before but for second next gate
+dist3Dtonextnext,same as before but for second next gate
+dts2Dtonextnext,same as before but for second next gate
+vectortonextnextnorm,same as before but for second next gate
+vector2Dtonextnextnorm,same as before but for second next gate
+slopetonextnext,same as before but for second next gate
+azitonextnext,same as before but for second next gate
+HORIZONTALGATEDISTANCE,Horizontal gate distance if gates would be on one line
+VERTICALGATEDISTANCE,Vertical gate distance if gates would be on one line
+regularbs1orfs2,Regular rider backside = 1 / frontside = 2
+steepness_A,1=flat / 2=medium / 3=steep
+filter_$,"disregard, coaches filter"
+goofy2_regular1,goofy rider (right foot forward) = 2 / regular rider (left foot forward) = 1
+@2Ferse_3Zehe_4Ferse,"disregard, coaches filter"
+Zehen1_Fersen2,"disregard, coaches filter"
+DistanzSchätz,"disregard, coaches filter"
